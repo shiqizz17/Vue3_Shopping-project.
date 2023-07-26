@@ -1,0 +1,10 @@
+// jsconfig.json配置别名路径
+// 输入@/后，自动弹出src下的所有文件
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*":["src/*"]
+    }
+  }
+}
